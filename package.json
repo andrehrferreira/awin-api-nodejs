@@ -1,0 +1,51 @@
+{
+    "name": "awin-api-nodejs",
+    "version": "1.0.0",
+    "description": "API integration with Awin",
+    "main": "./build/index.js",
+    "scripts": {
+        "build": "babel src -s -D -d build",
+        "dev": "nodemon -w src --exec 'babel-node src/sample.js' --ignore build",
+        "lint": "eslint '**/*.js'",
+        "lint:fix": "eslint '**/*.js' --fix"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vigiadepreco/awin-api-nodejs"
+    },
+    "bugs": {
+        "url": "https://github.com/vigiadepreco/awin-api-nodejs/issues"
+    },
+    "homepage": "https://github.com/vigiadepreco/awin-api-nodejs#readme",
+    "keywords": [
+        "api",
+        "awin"
+    ],
+    "author": "Gislainy Velasco <gislainy.velasco@vigiadepreco.com.br>",
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run lint"
+        }
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.5.5",
+        "@babel/core": "^7.5.5",
+        "@babel/node": "^7.5.5",
+        "@babel/polyfill": "^7.8.7",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/register": "^7.5.5",
+        "@dekproject/scope": "^2.2.1",
+        "babel-eslint": "^10.0.3",
+        "dotenv": "^6.2.0",
+        "eslint": "^6.8.0",
+        "husky": "^4.2.3",
+        "mocha": "^6.0.1",
+        "temp": "^0.9.1",
+        "webpack": "^4.43.0",
+        "nodemon": "^1.19.1"
+    },
+    "dependencies": {
+        "axios": "^0.21.0"
+    }
+}

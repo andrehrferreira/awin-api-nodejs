@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/sample.js"],"names":["Awin"],"mappings":";;AAAA;;AAEA;;;;;;;;AAEA,wDAAC;AAAA;AAAA;AAAA;AAAA;AACG,cAAIA,iBAAJ;;AADH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,CAAD","sourcesContent":["import \"@babel/polyfill/noConflict\";\n\nimport Awin from \"./index\";\n\n(async () => {\n    new Awin();\n})();"],"file":"sample.js"}

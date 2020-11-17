@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["console","log"],"mappings":";;;;;;;AAAA;;eAEe,oBAAM;AACjBA,EAAAA,OAAO,CAACC,GAAR,CAAY,OAAZ;AACH,C","sourcesContent":["import \"@babel/polyfill/noConflict\";\n\nexport default () => {\n    console.log(\"teste\")\n}"],"file":"index.js"}
