@@ -28,7 +28,7 @@ var _default = function _default(awinaffid, acessToken) {
     deeplink: function deeplink(link, awinmid) {
       return new Promise(function (resolve, reject) {
         if (link && awinaffid) {
-          resolve("https://www.awin1.com/cread.php?awinmid=".concat(awinmid, "&awinaffid=").concat(awinaffid, "&").concat(encodeURIComponent(link)));
+          resolve("https://www.awin1.com/cread.php?awinmid=".concat(awinmid, "&awinaffid=").concat(awinaffid, "&ued=").concat(encodeURIComponent(link)));
         } else {
           reject('Missing link or awinmid');
         }

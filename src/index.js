@@ -15,7 +15,7 @@ export default (awinaffid, acessToken) => {
         deeplink (link, awinmid) {
             return new Promise((resolve, reject) => {
                 if (link && awinaffid) {
-                    resolve(`https://www.awin1.com/cread.php?awinmid=${awinmid}&awinaffid=${awinaffid}&${encodeURIComponent(link)}`);
+                    resolve(`https://www.awin1.com/cread.php?awinmid=${awinmid}&awinaffid=${awinaffid}&ued=${encodeURIComponent(link)}`);
                 } else {
                     reject('Missing link or awinmid');
                 }
