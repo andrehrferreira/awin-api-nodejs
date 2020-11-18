@@ -7,9 +7,9 @@ import Awin from "./index";
     
      
     // Doc https://wiki.awin.com/index.php/API_get_programmes
-    // awin
-    //     .programs()
-    //     .then(console.log).catch(console.log)
+    awin
+        .programs()
+        .then(console.log).catch(console.log)
 
     /*
     awin

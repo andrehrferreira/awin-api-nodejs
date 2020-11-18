@@ -3,22 +3,23 @@
 API integration with Awin
 
 Doc Deeplink: https://wiki.awin.com/index.php/Deeplink_Builder
+
 Doc Programmes: https://wiki.awin.com/index.php/API_get_programmes
 
 ## Install
 
 ```bash
-$ npm install awin-api-nodejs
+$ npm install awin-api-nodejs --save
 ```
 
 ## Start project
 
 Create .env file 
 
-`
+```
 AWIN_PUBLISHER_ID = awinaffid
 AWIN_ACESS_TOKEN = acessToken
-`
+```
 
 ## Usage
 
